@@ -169,3 +169,4 @@ var array2 = ['plant', 17, 2, 'Bill', 'dog'];
 array1.splice(2, 1, );
 array1.splice(4, 1);
 console.log(array1);
+// unfinished...
