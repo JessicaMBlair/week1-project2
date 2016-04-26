@@ -151,8 +151,21 @@ console.log(array4);
 // BONUS 1: Try to arrange the following items from smallest to largest:
 var sortingNumbers = [2, 5, 98, 55, 77, 300]
 // If it doesn't sort as expected, explain why.
+sortingNumbers.sort();
+console.log (sortingNumbers);  //Goes by first number even in double digits
+
+sortingNumbers.sort(function(a, b) { //sorts in numerical order
+  return a - b
+});
+console.log (sortingNumbers);
+
 
 // BONUS 2: Transform array1 into array2 using as few lines of code as you can without directly changing the value of an item (ie array1[0] = item)
 var array1 = [2, 'dog', 34, 'Bill', 'plant', 'mug', 17];
+
 // Goal:
 var array2 = ['plant', 17, 2, 'Bill', 'dog'];
+
+array1.splice(2, 1, );
+array1.splice(4, 1);
+console.log(array1);
