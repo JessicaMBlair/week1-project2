@@ -13,13 +13,34 @@
 
 console.log("Question 1");
 
+var emptyArray = [];
+emptyArray.push('fish', 'dog', 'cat', 'bird');
+console.log(emptyArray);
+
+
 // 2. Add an additional item to the beginning of your array.
+console.log("Question 2");
+emptyArray.unshift('lizard');
+console.log(emptyArray);
+
 
 // 3. Remove the second and third items in your array.
+console.log("Question 3");
+emptyArray.splice(1, 2);
+console.log(emptyArray);
+
 
 // 4. Add two new items after the second item.
+console.log("Question 4");
+emptyArray.splice(2, 0, 'Cow', 'Goat');
+console.log(emptyArray);
+
 
 // 5. Write 'The current length of the array is....' using the .length method
+console.log("Question 5");
+console.log('The current length of the array is ' + emptyArray.length);
+
+
 
 // Use the following Array for questions 6-11:
 var things = ['mug', 'book', 'mouse', 'plant', 'sunglasses'];
