@@ -60,8 +60,7 @@ console.log(stuff);
 // 8. Declare a variable called lastItem using .pop() on the things array.
 //    Add two new items to lastItem, one at the beginning and one at the end.
 console.log("Question 8");
-var lastItem = things.pop();
-var lastItem = ['sunglasses']; //?? Received an error is i didnt declare this
+var lastItem = [things.pop()];
 lastItem.unshift('pencil');
 lastItem.push('pen');
 console.log(lastItem);
